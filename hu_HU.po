@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Enfold v2.7.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-02 12:52+0100\n"
-"PO-Revision-Date: Fri Apr 29 2016 15:27:46 GMT+0200 (Közép-európai nyári idő "
+"PO-Revision-Date: Mon May 30 2016 14:41:26 GMT+0200 (Közép-európai nyári idő "
 ")\n"
 "Last-Translator: admincore <admincore@corewebstudio.net>\n"
 "Language-Team: \n"
@@ -56,39 +56,10 @@ msgstr ""
 msgid "available add-ons"
 msgstr ""
 
-#: config-events-calendar/config.php:202 config-events-calendar/config.php:211
-msgid "Events"
-msgstr "Események"
-
-#: config-events-calendar/config.php:206
-msgid "No Events Found"
-msgstr "Nincs bejegyzett esemény"
-
-#: config-events-calendar/views/default-template.php:10
-msgid "Calendar of Events"
-msgstr "Esemény naptár"
-
-#: config-events-calendar/views/single-event.php:21
-msgid "&laquo; All Events"
-msgstr "&laquo; Összes esemény"
-
-#: config-events-calendar/views/single-event.php:86
-msgid "Event Navigation"
-msgstr "Esemény navigálás"
-
-# @ LayerSlider
-#: config-layerslider/LayerSlider/config/defaults.php:51
-msgid "Max-width"
-msgstr "Max-szélesség"
-
 # @ LayerSlider
 #: config-layerslider/LayerSlider/config/defaults.php:79
 msgid "Responsive under"
 msgstr ""
-
-#: config-layerslider/LayerSlider/config/defaults.php:105
-msgid "Hide on mobile"
-msgstr "Elrejtve mobilon"
 
 #: config-layerslider/LayerSlider/config/defaults.php:107
 msgid "Hides the slider on mobile devices."
@@ -136,12 +107,6 @@ msgstr ""
 msgid "Gesture-based navigation when swiping on touch-enabled devices."
 msgstr ""
 
-# @ LayerSlider
-#: config-layerslider/LayerSlider/config/defaults.php:242
-#: config-layerslider/LayerSlider/views/slider_edit_settings.php:157
-msgid "Skin"
-msgstr "Téma"
-
 #: config-layerslider/LayerSlider/config/defaults.php:244
 msgid ""
 "The skin used for this slider. The 'noskin' skin is a border- and buttonless "
@@ -164,16 +129,6 @@ msgid ""
 "Change the duration of the initial fade animation when the page loads. Enter "
 "0 to disable fading."
 msgstr ""
-
-#: config-layerslider/LayerSlider/config/defaults.php:278
-msgid "Slider CSS"
-msgstr "Slider CSS"
-
-# @ LayerSlider
-#: config-layerslider/LayerSlider/config/defaults.php:359
-#: config-layerslider/LayerSlider/views/slider_edit_settings.php:257
-msgid "Thumbnail navigation"
-msgstr "Bélyegkép navigálás"
 
 # @ LayerSlider
 #: config-layerslider/LayerSlider/config/defaults.php:372
@@ -5428,21 +5383,21 @@ msgstr ""
 #: config-templatebuilder/avia-shortcodes/product_list.php:91
 #: config-templatebuilder/avia-shortcodes/productslider.php:95
 msgid "Sort by most recent"
-msgstr ""
+msgstr "Sorrend dátum szerint"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/product_grid.php:93
 #: config-templatebuilder/avia-shortcodes/product_list.php:92
 #: config-templatebuilder/avia-shortcodes/productslider.php:96
 msgid "Sort by price"
-msgstr ""
+msgstr "Sorrend ár szerint"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/product_grid.php:94
 #: config-templatebuilder/avia-shortcodes/product_list.php:93
 #: config-templatebuilder/avia-shortcodes/productslider.php:97
 msgid "Sort by popularity"
-msgstr ""
+msgstr "Sorrend népszerűség szerint"
 
 #: config-templatebuilder/avia-shortcodes/product_list.php:23
 msgid "Product List"
@@ -7566,12 +7521,6 @@ msgstr ""
 msgid "The text will appear beside your gallery/slideshow"
 msgstr ""
 
-#: config-templatebuilder/avia-template-builder/config/meta.php:174
-#: includes/admin/register-admin-options.php:12
-#: includes/admin/register-admin-options.php:318
-msgid "Sidebar Settings"
-msgstr "Oldalsáv beállítások"
-
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/meta.php:207
 msgid "Display the footer widgets?"
@@ -7908,17 +7857,17 @@ msgstr ""
 # @ avia_framework
 #: config-woocommerce/config.php:1012
 msgid "Products per page"
-msgstr ""
+msgstr "termék oldalanként"
 
 # @ avia_framework
 #: config-woocommerce/config.php:1034
 msgid "Sort by"
-msgstr ""
+msgstr "Rendezés"
 
 # @ avia_framework
 #: config-woocommerce/config.php:1053
 msgid "Display"
-msgstr ""
+msgstr "Mutat"
 
 #: config-woocommerce/config.php:1350
 msgid "(disabled)"
@@ -8186,26 +8135,6 @@ msgstr[0] ""
 msgstr[1] ""
 
 # @ avia_framework
-#: framework/php/class-tgm-plugin-activation.php:170
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to install the %s plugin. "
-"Contact the administrator of this site for help on getting the plugin "
-"installed."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to install the %s plugins."
-" Contact the administrator of this site for help on getting the plugins "
-"installed."
-msgstr[0] ""
-"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy telepítse a % "
-"pluginokat. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
-"segítséget kapjon a pluginok telepítéshez."
-msgstr[1] ""
-"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy telepítse a % "
-"plugint. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
-"segítséget kapjon a plugin telepítéshez."
-
-# @ avia_framework
 #: framework/php/class-tgm-plugin-activation.php:171
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
@@ -8222,26 +8151,6 @@ msgstr[0] ""
 msgstr[1] ""
 
 # @ avia_framework
-#: framework/php/class-tgm-plugin-activation.php:173
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to activate the %s plugin."
-" Contact the administrator of this site for help on getting the plugin "
-"activated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to activate the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins activated."
-msgstr[0] ""
-"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy aktiválja a % "
-"plugint. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
-"segítséget kapjon a plugin aktiváláshoz."
-msgstr[1] ""
-"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy aktiválja a % "
-"pluginokat. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
-"segítséget kapjon a pluginok aktiváláshoz."
-
-# @ avia_framework
 #: framework/php/class-tgm-plugin-activation.php:174
 #, php-format
 msgid ""
@@ -8252,26 +8161,6 @@ msgid_plural ""
 "maximum compatibility with this theme: %1$s."
 msgstr[0] ""
 msgstr[1] ""
-
-# @ avia_framework
-#: framework/php/class-tgm-plugin-activation.php:175
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to update the %s plugin. "
-"Contact the administrator of this site for help on getting the plugin "
-"updated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to update the %s plugins. "
-"Contact the administrator of this site for help on getting the plugins "
-"updated."
-msgstr[0] ""
-"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy frissítse a % "
-"plugint. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
-"segítséget kapjon a plugin frissítéshez."
-msgstr[1] ""
-"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy frissítse a % "
-"pluginokat. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
-"segítséget kapjon a pluginok frissítéshez."
 
 # @ avia_framework
 #: framework/php/class-tgm-plugin-activation.php:176
@@ -8723,17 +8612,6 @@ msgid "Loading"
 msgstr ""
 
 # @ avia_framework
-#: functions-enfold.php:140 includes/loop-author.php:151
-#: includes/loop-index.php:249
-msgid "Sorry, no posts matched your criteria"
-msgstr "Nincs a feltételeknek megfelelő elem"
-
-# @ avia_framework
-#: functions-enfold.php:141
-msgid "Please try another search term"
-msgstr "Kérem próbáljon másik keresést"
-
-# @ avia_framework
 #: functions-enfold.php:343 includes/helper-post-format.php:63
 #: template-archives.php:55
 msgid "Permanent Link:"
@@ -8788,28 +8666,9 @@ msgstr ""
 msgid "Footer Menu (no dropdowns)"
 msgstr ""
 
-#: includes/admin/register-admin-options.php:8
-#: includes/admin/register-admin-options.php:1681
-msgid "General Layout"
-msgstr "Általános elrendezés"
-
-# @ avia_framework
-#: includes/admin/register-admin-options.php:9
-msgid "General Styling"
-msgstr "Általános stílus"
-
-# @ avia_framework
-#: includes/admin/register-admin-options.php:10
-msgid "Advanced Styling"
-msgstr "Haladó stílus"
-
 #: includes/admin/register-admin-options.php:20
 msgid "Shop Options"
 msgstr ""
-
-#: includes/admin/register-admin-options.php:25
-msgid "Demo Import"
-msgstr "Demo import"
 
 #: includes/admin/register-admin-options.php:48
 msgid "Header Shopping Cart Icon"
@@ -9276,11 +9135,6 @@ msgstr ""
 #: includes/admin/register-admin-options.php:1259
 msgid "You can change that setting"
 msgstr ""
-
-#: includes/admin/register-admin-options.php:943
-#: includes/admin/register-admin-options.php:1261
-msgid "at General Layout"
-msgstr "'Általános elrendezés'-nél"
 
 # @ LayerSlider
 #: includes/admin/register-admin-options.php:948
@@ -10074,11 +9928,6 @@ msgid ""
 msgstr ""
 
 # @ avia_framework
-#: includes/error404.php:33 includes/loop-search.php:138
-msgid "Feel like browsing some posts instead?"
-msgstr "Böngésznél inkább néhány hozzászólás között?"
-
-# @ avia_framework
 #: includes/helper-conditional-megamenu.php:50
 msgid "User is Subscriber"
 msgstr ""
@@ -10141,6 +9990,157 @@ msgstr "H4"
 #, fuzzy
 msgid "5"
 msgstr "H5"
+
+#: config-events-calendar/config.php:202 config-events-calendar/config.php:211
+msgid "Events"
+msgstr "Események"
+
+#: config-events-calendar/config.php:206
+msgid "No Events Found"
+msgstr "Nincs bejegyzett esemény"
+
+#: config-events-calendar/views/default-template.php:10
+msgid "Calendar of Events"
+msgstr "Esemény naptár"
+
+#: config-events-calendar/views/single-event.php:21
+msgid "&laquo; All Events"
+msgstr "&laquo; Összes esemény"
+
+#: config-events-calendar/views/single-event.php:86
+msgid "Event Navigation"
+msgstr "Esemény navigálás"
+
+# @ LayerSlider
+#: config-layerslider/LayerSlider/config/defaults.php:51
+msgid "Max-width"
+msgstr "Max-szélesség"
+
+#: config-layerslider/LayerSlider/config/defaults.php:105
+msgid "Hide on mobile"
+msgstr "Elrejtve mobilon"
+
+# @ LayerSlider
+#: config-layerslider/LayerSlider/config/defaults.php:242
+#: config-layerslider/LayerSlider/views/slider_edit_settings.php:157
+msgid "Skin"
+msgstr "Téma"
+
+#: config-layerslider/LayerSlider/config/defaults.php:278
+msgid "Slider CSS"
+msgstr "Slider CSS"
+
+# @ LayerSlider
+#: config-layerslider/LayerSlider/config/defaults.php:359
+#: config-layerslider/LayerSlider/views/slider_edit_settings.php:257
+msgid "Thumbnail navigation"
+msgstr "Bélyegkép navigálás"
+
+#: config-templatebuilder/avia-template-builder/config/meta.php:174
+#: includes/admin/register-admin-options.php:12
+#: includes/admin/register-admin-options.php:318
+msgid "Sidebar Settings"
+msgstr "Oldalsáv beállítások"
+
+# @ avia_framework
+#: framework/php/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy telepítse a % "
+"pluginokat. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
+"segítséget kapjon a pluginok telepítéshez."
+msgstr[1] ""
+"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy telepítse a % "
+"plugint. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
+"segítséget kapjon a plugin telepítéshez."
+
+# @ avia_framework
+#: framework/php/class-tgm-plugin-activation.php:173
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy aktiválja a % "
+"plugint. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
+"segítséget kapjon a plugin aktiváláshoz."
+msgstr[1] ""
+"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy aktiválja a % "
+"pluginokat. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
+"segítséget kapjon a pluginok aktiváláshoz."
+
+# @ avia_framework
+#: framework/php/class-tgm-plugin-activation.php:175
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy frissítse a % "
+"plugint. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
+"segítséget kapjon a plugin frissítéshez."
+msgstr[1] ""
+"Sajnáljuk, de nem rendelkezik a megfelelő engedélyekkel, hogy frissítse a % "
+"pluginokat. Kérjük, lépjen kapcsolatba az oldal rendszergazdájával, hogy "
+"segítséget kapjon a pluginok frissítéshez."
+
+# @ avia_framework
+#: functions-enfold.php:140 includes/loop-author.php:151
+#: includes/loop-index.php:249
+msgid "Sorry, no posts matched your criteria"
+msgstr "Nincs a feltételeknek megfelelő elem"
+
+# @ avia_framework
+#: functions-enfold.php:141
+msgid "Please try another search term"
+msgstr "Kérem próbáljon másik keresést"
+
+#: includes/admin/register-admin-options.php:8
+#: includes/admin/register-admin-options.php:1681
+msgid "General Layout"
+msgstr "Általános elrendezés"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:9
+msgid "General Styling"
+msgstr "Általános stílus"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:10
+msgid "Advanced Styling"
+msgstr "Haladó stílus"
+
+#: includes/admin/register-admin-options.php:25
+msgid "Demo Import"
+msgstr "Demo import"
+
+#: includes/admin/register-admin-options.php:943
+#: includes/admin/register-admin-options.php:1261
+msgid "at General Layout"
+msgstr "'Általános elrendezés'-nél"
+
+# @ avia_framework
+#: includes/error404.php:33 includes/loop-search.php:138
+msgid "Feel like browsing some posts instead?"
+msgstr "Böngésznél inkább néhány hozzászólás között?"
 
 # @ avia_framework
 #: 404.php:10
